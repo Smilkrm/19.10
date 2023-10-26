@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Poppins&family=Raleway:wght@100;500&family=Roboto:wght@100;400&family=Young+Serif&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse-container {
+    width: 856px;
+    height: 856px;
+    flex-shrink: 0;
+    border-radius: 856px;
+    background: #E0E7F8;
+}
+
+.textcard {
+    display: flex;
+    position: absolute;
+    width: 555px;
+    height: 402px;
+    border-radius: 20px;
+    background: #FFF;
+    flex-direction: column;
+
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+    border-radius: 10px;
+    background: #626CD6;
+    box-shadow: 0px 16px 25px -10px rgba(83, 92, 181, 0.25);
+    width: 505px;
+    height: 117px;
+    margin-top: 25px;
+}
+
+header h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.technology p {
+    width: 328px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button {
+    display: flex;
+    width: 121px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    height: 44px;
+    color: #262040;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 25px;
+}
+
+.technology {
+    position: relative;
+    display: flex;
+    margin-top: 35px;
+}
+
+li {
+    list-style: none;
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.dadgc {
+    margin: -30px;
+}
+
+.list {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 11px;
+    font-family: Poppins;
+    margin-top: 20px;
+}
+
+.rdgto {
+    margin-bottom: 30px;
+}
+
+.doc {
+    width: 123.339px;
+    color: #6F7189;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.API {
+    display: flex;
+    width: 247px;
+    align-items: center;
+    border-radius: 5px;
+    background: #F1F2FF;
+    height: 44px;
+    justify-content: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.res {
+    color: #6F7189;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 81.563px;
+}
